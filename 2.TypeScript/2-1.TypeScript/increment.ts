@@ -1,0 +1,10 @@
+function increment(num: number) {
+    return num + 1;
+}
+
+console.log("999+1=", increment(999));
+/*
+console.log("\"999\"+1=", increment("999"));
+//ERROR!!
+*/
+
