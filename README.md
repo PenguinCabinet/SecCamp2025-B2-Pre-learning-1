@@ -24,7 +24,9 @@ tsc 1.environment_construction/HelloWorld.ts && node 1.environment_construction/
 
 ### 2. TypeScript
 #### 2-1. TypeScript
-[2.TypeScript/2-1.TypeScript](/2.TypeScript/2-1.TypeScript/)に読了後に作成したコードがあります。
+[https://typescriptbook.jp/](https://typescriptbook.jp/)を読了後、作成したコードは[2.TypeScript/2-1.TypeScript](/2.TypeScript/2-1.TypeScript/)にあります。
+
+
 
 #### 2-3. 完了条件
 - [ ] [読了後に作成したコード(2-1. TypeScript)](/2.TypeScript/2-1.TypeScript/)
