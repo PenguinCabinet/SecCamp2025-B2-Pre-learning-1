@@ -34,6 +34,9 @@ tsc 1.environment_construction/HelloWorld.ts && node 1.environment_construction/
 - [Vercelにデプロイしてみよう](https://sec-camp2025-b2-pre-learning-1-rand.vercel.app)
 - [Jestでテストを書こう](./2.TypeScript/2-1.TypeScript/jest-tutorial/)
 - [Reactコンポーネントのテストを書こう](./2.TypeScript/2-1.TypeScript/component-test-tutorial/)
+- [Prettierでコード整形を自動化しよう](./2.TypeScript/2-1.TypeScript/prettier-tutorial/)
+- [ESLintでTypeScriptのコーディング規約チェックを自動化しよう(JavaScript)](./2.TypeScript/2-1.TypeScript/eslint-tutorial/),[ESLintでTypeScriptのコーディング規約チェックを自動化しよう(TypeScript)](./2.TypeScript/2-1.TypeScript/eslint-typescript-tutorial/)
+
 
 
 ### 2-3. 完了条件
