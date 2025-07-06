@@ -41,5 +41,5 @@ tsc 1.environment_construction/HelloWorld.ts && node 1.environment_construction/
 
 
 ### 2-3. 完了条件
-- [ ] [読了後に作成したコード(2-1. TypeScript)](./2.TypeScript/2-1.TypeScript/)
+- [x] [読了後に作成したコード(2-1. TypeScript)](./2.TypeScript/2-1.TypeScript/)
 - [ ] 読了後に作成したコード(2-2. Fastify)
