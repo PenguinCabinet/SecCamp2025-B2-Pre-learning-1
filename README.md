@@ -31,7 +31,7 @@ tsc 1.environment_construction/HelloWorld.ts && node 1.environment_construction/
 - [簡単な関数を作ってみよう](./2.TypeScript/2-1.TypeScript/simple-function/)
 - [Reactでいいねボタンを作ろう](./2.TypeScript/2-1.TypeScript/like-button/)
 - [Next.jsで猫画像ジェネレーターを作ろう](./2.TypeScript/2-1.TypeScript/random-cat/)
-- [Vercelにデプロイしてみよう](https://sec-camp2025-b2-pre-learning-1-rand.vercel.app)
+- [Jestでテストを書こう](./2.TypeScript/2-1.TypeScript/jest-tutorial/)
 
 
 ### 2-3. 完了条件
