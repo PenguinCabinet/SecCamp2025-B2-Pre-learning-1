@@ -33,7 +33,7 @@ tsc 1.environment_construction/HelloWorld.ts && node 1.environment_construction/
 - [Next.jsで猫画像ジェネレーターを作ろう](./2.TypeScript/2-1.TypeScript/random-cat/)
 - [Vercelにデプロイしてみよう](https://sec-camp2025-b2-pre-learning-1-rand.vercel.app)
 - [Jestでテストを書こう](./2.TypeScript/2-1.TypeScript/jest-tutorial/)
-- [Reactコンポーネントのテストを書こう]()
+- [Reactコンポーネントのテストを書こう](./2.TypeScript/2-1.TypeScript/component-test-tutorial/)
 
 
 ### 2-3. 完了条件
