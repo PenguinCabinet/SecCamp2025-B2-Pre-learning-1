@@ -1,8 +1,7 @@
 # セキュリティキャンプ 2025 B2 事前学習
-## 内容
-### 1. 環境の準備
+## 1. 環境の準備
 詳しいソースコードは[1.environment_construction](1.environment_construction)をご覧ください。
-#### 1-1. Golang
+### 1-1. Golang
 VS Codeで本リポジトリを開き、Dev Containerの「コンテナを再度開く」からGolangを起動してください。   
 
 VS Codeのterminalから、
@@ -10,7 +9,7 @@ VS Codeのterminalから、
 go run 1.environment_construction/HelloWorld.go
 ```
 と実行すれば、完了です。     
-#### 1-2. TypeScript
+### 1-2. TypeScript
 VS Codeで本リポジトリを開き、Dev Containerの「コンテナを再度開く」からTypeScriptを起動してください。   
 
 VS Codeのterminalから、
@@ -18,12 +17,12 @@ VS Codeのterminalから、
 tsc 1.environment_construction/HelloWorld.ts && node 1.environment_construction/HelloWorld.js
 ```
 と実行すれば、完了です。     
-#### 1-3. 完了条件
+### 1-3. 完了条件
 - [x] [Golangで`Hello World.`を標準出力で表示](./1.environment_construction/HelloWorld.go)
 - [x] [TypeScriptで`Hello World.`を標準出力で表示](./1.environment_construction/HelloWorld.ts)
 
-### 2. TypeScript
-#### 2-1. TypeScript
+## 2. TypeScript
+### 2-1. TypeScript
 [https://typescriptbook.jp/](https://typescriptbook.jp/)を読了後、作成したコードは[2.TypeScript/2-1.TypeScript](./2.TypeScript/2-1.TypeScript/)にあります。
 
 [https://typescriptbook.jp/tutorials](https://typescriptbook.jp/tutorials)の章と本リポジトリのソースコードのパスの対応は下記の通りです。
@@ -33,6 +32,6 @@ tsc 1.environment_construction/HelloWorld.ts && node 1.environment_construction/
 - [Next.jsで猫画像ジェネレーターを作ろう](./2.TypeScript/2-1.TypeScript/random-cat/)
 
 
-#### 2-3. 完了条件
+### 2-3. 完了条件
 - [ ] [読了後に作成したコード(2-1. TypeScript)](./2.TypeScript/2-1.TypeScript/)
 - [ ] 読了後に作成したコード(2-2. Fastify)
