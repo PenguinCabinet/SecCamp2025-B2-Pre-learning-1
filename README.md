@@ -1,4 +1,4 @@
-# セキュリティキャンプ 2025 B2 事前学習
+# セキュリティキャンプ 2025 B2 事前学習1
 ## 1. 環境の準備
 詳しいソースコードは[1.environment_construction](1.environment_construction)をご覧ください。
 ### 1-1. Golang
