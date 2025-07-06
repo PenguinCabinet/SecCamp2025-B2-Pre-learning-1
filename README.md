@@ -26,10 +26,12 @@ tsc 1.environment_construction/HelloWorld.ts && node 1.environment_construction/
 [https://typescriptbook.jp/](https://typescriptbook.jp/)を読了後、作成したコードは[2.TypeScript/2-1.TypeScript](./2.TypeScript/2-1.TypeScript/)にあります。
 
 [https://typescriptbook.jp/tutorials](https://typescriptbook.jp/tutorials)の各章と本リポジトリのパスの対応は下記の通りです。
+(「Vercelにデプロイしてみよう」の章だけパスではなくデプロイ先のURLになっています)
 
 - [簡単な関数を作ってみよう](./2.TypeScript/2-1.TypeScript/simple-function/)
 - [Reactでいいねボタンを作ろう](./2.TypeScript/2-1.TypeScript/like-button/)
 - [Next.jsで猫画像ジェネレーターを作ろう](./2.TypeScript/2-1.TypeScript/random-cat/)
+- [Vercelにデプロイしてみよう]()
 
 
 ### 2-3. 完了条件
