@@ -95,4 +95,4 @@ node src/main-parsing.js
 
 ### 2-3. 完了条件
 - [x] [読了後に作成したコード(2-1. TypeScript)](./2.TypeScript/2-1.TypeScript/)
-- [ ] 読了後に作成したコード(2-2. Fastify)
+- [x] 読了後に作成したコード(2-2. Fastify)
