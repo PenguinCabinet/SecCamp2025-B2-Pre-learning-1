@@ -38,6 +38,59 @@ tsc 1.environment_construction/HelloWorld.ts && node 1.environment_construction/
 - [ESLintでTypeScriptのコーディング規約チェックを自動化しよう(JavaScript)](./2.TypeScript/2-1.TypeScript/eslint-tutorial/)
 - [ESLintでTypeScriptのコーディング規約チェックを自動化しよう(TypeScript)](./2.TypeScript/2-1.TypeScript/eslint-typescript-tutorial/)
 
+### 2-2. Fastifyの準備
+
+　[https://fastify.dev/docs/latest/Guides/Getting-Started/](https://fastify.dev/docs/latest/Guides/Getting-Started/)を読了後、作成したコードは[2.TypeScript/2-2.Fastify](./2.TypeScript/2-2.Fastify/)にあります。
+
+　各章と実行コマンドの対応は下記の通りです。  
+#### Your first server
+```
+node src/main.js
+```
+#### Your first plugin
+```
+node src/main-plugin.js
+```
+#### MongoDB plugin
+```
+docker compose up -d
+```
+#### Validate your data
+```
+node src/main-validation.js
+```
+下記のリクエストを投げて、検証してみましょう。
+```
+curl -X POST -H "Content-Type: application/json" -d '{"test":"test"}' localhost:3000
+```
+下記のように、必須のプロパティがないため、はじかれます。
+```
+{"statusCode":400,"code":"FST_ERR_VALIDATION","error":"Bad Request","message":"body must have required property 'someKey'"}
+```
+次に、必須のプロパティを加えたリクエストを投げます。
+```
+curl -X POST -H "Content-Type: application/json" -d '{"someKey":"test","someOtherKey":"test"}' localhost:3000
+```
+今度は、下記の通り、someOtherKeyが数字でなければならないと、はじかれました。
+```
+{"statusCode":400,"code":"FST_ERR_VALIDATION","error":"Bad Request","message":"body/someOtherKey must be number"}
+```
+そこで、someOtherKeyの値を数字にして、リクエストを送信します。
+```
+curl -X POST -H "Content-Type: application/json" -d '{"someKey":"test","someOtherKey":0}' localhost:3000     
+```
+今度は、うまくいきました。
+```
+{"someKey":"test","someOtherKey":0}
+```
+#### Serialize your data
+```
+node src/main-serialization.js 
+```
+#### Parsing request payloads
+```
+node src/main-parsing.js 
+```
 
 
 ### 2-3. 完了条件
