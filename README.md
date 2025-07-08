@@ -59,27 +59,27 @@ docker compose up -d
 ```
 node src/main-validation.js
 ```
-下記のリクエストを投げて、検証してみましょう。
+　下記のリクエストを投げて、検証してみましょう。
 ```
 curl -X POST -H "Content-Type: application/json" -d '{"test":"test"}' localhost:3000
 ```
-下記のように、必須のプロパティがないため、はじかれます。
+　下記のように、必須のプロパティがないため、はじかれます。
 ```
 {"statusCode":400,"code":"FST_ERR_VALIDATION","error":"Bad Request","message":"body must have required property 'someKey'"}
 ```
-次に、必須のプロパティを加えたリクエストを投げます。
+　次に、必須のプロパティを加えたリクエストを投げます。
 ```
 curl -X POST -H "Content-Type: application/json" -d '{"someKey":"test","someOtherKey":"test"}' localhost:3000
 ```
-今度は、下記の通り、someOtherKeyが数字でなければならないと、はじかれました。
+　今度は、下記の通り、someOtherKeyが数字でなければならないと、はじかれました。
 ```
 {"statusCode":400,"code":"FST_ERR_VALIDATION","error":"Bad Request","message":"body/someOtherKey must be number"}
 ```
-そこで、someOtherKeyの値を数字にして、リクエストを送信します。
+　そこで、someOtherKeyの値を数字にして、リクエストを送信します。
 ```
 curl -X POST -H "Content-Type: application/json" -d '{"someKey":"test","someOtherKey":0}' localhost:3000     
 ```
-今度は、うまくいきました。
+　今度は、うまくいきました。
 ```
 {"someKey":"test","someOtherKey":0}
 ```
