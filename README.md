@@ -96,3 +96,20 @@ node src/main-parsing.js
 ### 2-3. 完了条件
 - [x] [読了後に作成したコード(2-1. TypeScript)](./2.TypeScript/2-1.TypeScript/)
 - [x] [読了後に作成したコード(2-2. Fastify)](./2.TypeScript/2-2.Fastify/)
+
+
+## 3. Golang
+### 3-1. Golang
+#### Go Tour
+　[https://go.dev/tour/welcome/1](https://go.dev/tour/welcome/1)を読了後、作成したコードは[3.Golang/Tour](./3.Golang/Tour/)にあります。      
+　フォルダ構成は[go-tour-jpのリポジトリ](https://github.com/atotto/go-tour-jp/tree/jp/content)に準拠しました
+
+　実行方法の例は下記の通りです。
+```
+cd 3.Golang/Tour/welcome   
+go run hello.go
+```
+
+
+### 3-2. 完了条件
+- [ ] [読了後に作成したコード(3-1. Golang)](./3.Golang/)
