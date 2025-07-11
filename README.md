@@ -1,5 +1,11 @@
 # セキュリティキャンプ 2025 B2 事前学習1
-
+## 0. 動作確認済みの実行環境
+|項目|バージョン|
+|---|---|
+|Windows|11|
+|nodejs|20.10.0|
+|Golang|1.22.4|
+|Docker|20.10.16|
 ## 1. 環境の準備
 詳しいソースコードは[1.environment_construction](1.environment_construction)をご覧ください。
 ### 1-1. Golang
