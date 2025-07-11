@@ -119,6 +119,17 @@ go run hello.go
 
 #### Go Tutorials
 　[https://go.dev/doc/tutorial/](https://go.dev/doc/tutorial/)を読了後、作成したコードは[3.Golang/Tutorials](./3.Golang/Tutorials/)にあります。      
+##### [Create a Go module](https://go.dev/doc/tutorial/create-module)
+　下記のコマンドで実行できます。
+```
+cd 3.Golang/Tutorials/create-module/hello
+go run .
+```
+　greetingsをテストしたい場合、下記のコマンドで実行できます。
+```
+cd 3.Golang/Tutorials/create-module/greetings
+go test
+```
 ##### [Accessing a relational database](https://go.dev/doc/tutorial/database-access)
 　下記のコマンドで実行できます。
 ```
