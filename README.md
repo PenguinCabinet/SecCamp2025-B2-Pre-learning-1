@@ -125,6 +125,12 @@ go run hello.go
 cd 3.Golang/Tutorials/data-access
 docker compose up
 ```
+##### [Developing a RESTful API with Go and Gin](https://go.dev/doc/tutorial/web-service-gin)
+下記のコマンドで実行できます。
+```
+cd 3.Golang/web-service-gin
+go run .
+```
 ##### [Getting started with generics](https://go.dev/doc/tutorial/generics)
 下記のコマンドで実行できます。
 ```
