@@ -1,4 +1,5 @@
 # セキュリティキャンプ 2025 B2 事前学習1
+
 ## 1. 環境の準備
 詳しいソースコードは[1.environment_construction](1.environment_construction)をご覧ください。
 ### 1-1. Golang
@@ -118,6 +119,13 @@ go run hello.go
 cd 3.Golang/Tutorials/data-access
 docker compose up
 ```
+##### [Getting started with generics](https://go.dev/doc/tutorial/generics)
+下記のコマンドで実行できます。
+```
+cd 3.Golang/Tutorials/generics
+go run .
+```
+
 
 
 ### 3-2. 完了条件
