@@ -4,7 +4,7 @@
 |---|---|
 |Windows|11|
 |nodejs|20.10.0|
-|Golang|1.22.4|
+|Golang|1.24.5|
 |Docker|20.10.16|
 ## 1. 環境の準備
 詳しいソースコードは[1.environment_construction](1.environment_construction)をご覧ください。
