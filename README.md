@@ -137,6 +137,11 @@ go run .
 cd 3.Golang/Tutorials/generics
 go run .
 ```
+##### [Getting started with fuzzing](https://go.dev/doc/tutorial/fuzz)
+下記のコマンドで実行できます。
+```
+go test -fuzz=Fuzz -fuzztime 30s
+```
 
 
 
