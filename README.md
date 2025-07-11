@@ -130,6 +130,11 @@ go run .
 cd 3.Golang/Tutorials/create-module/greetings
 go test
 ```
+##### [Getting started with multi-module workspaces](https://go.dev/doc/tutorial/workspaces)
+　下記のコマンドで実行できます。
+```
+go run ./hello
+```
 ##### [Accessing a relational database](https://go.dev/doc/tutorial/database-access)
 　下記のコマンドで実行できます。
 ```
