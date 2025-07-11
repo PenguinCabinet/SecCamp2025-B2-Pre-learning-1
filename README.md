@@ -143,6 +143,13 @@ go run .
 go test -fuzz=Fuzz -fuzztime 30s
 ```
 
+##### [Find and fix vulnerable dependencies with govulncheck](https://go.dev/doc/tutorial/govulncheck)
+下記のコマンドで実行できます。
+```
+go install golang.org/x/vuln/cmd/govulncheck@latest
+govulncheck ./...
+```
+
 
 
 ### 3-2. 完了条件
