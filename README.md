@@ -133,6 +133,8 @@ go test
 ##### [Getting started with multi-module workspaces](https://go.dev/doc/tutorial/workspaces)
 　下記のコマンドで実行できます。
 ```
+cd 3.Golang/Tutorials/workspace
+git clone https://go.googlesource.com/example
 go run ./hello
 ```
 ##### [Accessing a relational database](https://go.dev/doc/tutorial/database-access)
