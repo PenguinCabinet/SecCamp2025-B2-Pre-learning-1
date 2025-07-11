@@ -110,6 +110,15 @@ cd 3.Golang/Tour/welcome
 go run hello.go
 ```
 
+#### Go Tutorials
+　[https://go.dev/doc/tutorial/](https://go.dev/doc/tutorial/)を読了後、作成したコードは[3.Golang/Tutorials](./3.Golang/Tutorials/)にあります。      
+##### [Accessing a relational database](https://go.dev/doc/tutorial/database-access)
+下記のコマンドで実行できます。
+```
+cd 3.Golang/Tutorials/data-access
+docker compose up
+```
+
 
 ### 3-2. 完了条件
 - [ ] [読了後に作成したコード(3-1. Golang)](./3.Golang/)
